@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+	<title>Yêu cầu chạy quảng cáo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+</head>
+<body>
+	<div class="main">
+		<!-- menu-left -->
+		<nav class="nav-menu">
+			<div class="logo">
+				<img src="images/Logo.png" alt="Logo Meeyland">
+			</div>
+			<div class="menu-list">
+				<ul>
+					<li class="active"><a href="thongtinyeucau.html" title="Dashboard"><i class="icon icon-home"></i>Dashboard</a></li>
+					<li><a href="#" title="Tạo yêu cầu"><i class="icon icon-creat"></i>Tạo yêu cầu</a></li>
+					<li><a href="#" title="Quản Lý yêu cầu"><i class="icon icon-request"></i>Quản Lý yêu cầu</a></li>
+					<li><a href="#" title="Phân tích"><i class="icon icon-analysis"></i>Phân tích</a></li>
+
+				</ul>
+			</div>
+		</nav>
+		<!-- end -->
+		<section class="block-content" id="bock-request">
+			<div class="main-content"> 
+				<!-- header-menu-right -->
+				<div class="header-menu-right">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 col-12">
+								<div class="text-tittle float-left">
+									<h2>Yêu cầu chạy quảng cáo</h2>
+									<h3>Xác nhận lại thông tin chiến dịch</h3>
+								</div>							
+							</div>
+							<div class="col-md-6 col-12">
+								<ul class="list-profile float-right">
+									<li class="item"><a href="#"><i class="icon-menu icon-langu"></i></a></li>
+									<li class="item"><a href="#"><i class="icon-menu icon-user-1"></i></a></li>
+									<li class="item"><a href="#"><i class="icon-menu icon-email"></i><span>2</span></a></li>
+									<li class="item"><a href="#"><i class="icon-menu icon-bell"></i><span>4</span></a></li>
+									<li class="dropdown"><a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-menu icon-profile"></i></a>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#"><i class="icon-menu icon-user-2"></i>Thông tin cá nhân</a>
+											<a class="dropdown-item" href="#"><i class="icon-menu icon-wallet"></i>Quản lý số dư</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end -->
+				<!-- Tab -->
+				<div class="block-tab">
+					<div class="container-fluid">
+						<nav class="nav nav-pills nav-fill">
+							<a class="nav-item nav-link active" href="javascript:void(0);">Thông tin yêu cầu</a>
+							<a class="nav-item nav-link disabled" href="javascript:void(0);">Xác nhận</a>
+							<a class="nav-item nav-link disabled" href="javascript:void(0);">Hoàn thành</a>
+						</nav>	
+					</div>
+				</div>
+				<!-- end -->
+				<div class="block-form-information">
+					<div class="container-fluid">
+						<!-- data-table -->
+						<div class="block-table">
+							<table id="data-table" class="display data-table">
+								<thead>
+									<tr>
+										<th><img src="images/data-table.png" alt=""></th>
+										<th>Marketer</th>
+										<th>Nền tảng</th>
+										<th>Dự án</th>
+										<th>Thời gian chạy</th>
+										<th>Ngân sách chiến dịch</th>
+										<th>Ngân sách hằng ngày</th>
+										<th>Phí dịch vụ<span class="text-tooltip" data-toggle="tooltip" data-placement="right" title="Phí dịch vụ"> </span></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td></td>
+										<td>
+											<div class="img">
+												<img src="images/img-data.png" alt="">
+											</div>
+											<div class="text-name">
+												<h3>Huyền NKT</h3>                       
+											</div>
+										</td>
+										<td><div class="img"><img src="images/google.png"></div></td>
+										<td>Vinhome Smart City</td>
+										<td>04/07/2021 - 30/07/2021</td>
+										<td>10.000.000 vnđ</td>
+										<td>100.000 vnđ</td>
+										<td>2.000.000 vnđ</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<div class="img">
+												<img src="images/img-data.png" alt="">
+
+											</div>
+											<div class="text-name">
+												<h3>Huyền NKT</h3>                       
+											</div>
+										</td>
+										<td><div class="img"><img src="images/fb.png"></div></td>
+										<td>Vinhome Smart City</td>
+										<td>04/07/2021 - 30/07/2021</td>
+										<td>10.000.000 vnđ</td>
+										<td>100.000 vnđ</td>
+										<td>2.000.000 vnđ</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<div class="img">
+												<img src="images/img-data.png" alt="">          
+											</div>
+											<div class="text-name">
+												<h3>Huyền NKT</h3>                       
+											</div>
+										</td>
+										<td><div class="img"><img src="images/google.png"></div></td>
+										<td>Vinhome Smart City</td>
+										<td>04/07/2021 - 30/07/2021</td>
+										<td>10.000.000 vnđ</td>
+										<td>100.000 vnđ</td>
+										<td>2.000.000 vnđ</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>
+											<div class="img">
+												<img src="images/img-data.png" alt="">
+
+											</div>
+											<div class="text-name">
+												<h3>Huyền NKT</h3>                       
+											</div>
+										</td>
+										<td><div class="img"><img src="images/fb.png"></div></td>
+										<td>Vinhome Smart City</td>
+										<td>04/07/2021 - 30/07/2021</td>
+										<td>10.000.000 vnđ</td>
+										<td>100.000 vnđ</td>
+										<td>2.000.000 vnđ</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<th></th>
+										<th>Name</th>
+										<th>Position</th>
+										<th>Office</th>
+										<th>Age</th>
+										<th>Salary</th>
+									</tr>
+								</tfoot>
+							</table>
+						</div>	
+						<!-- end -->
+						<div class="block-pay">
+							<div class="head-pay">
+								<h3>Chọn hình thức thanh tóan</h3>
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input coupon_question" name="coupon_question" value="1" id="customCheck1" data-toggle="modal" data-target="#Modalpay">
+									<label class="custom-control-label" for="customCheck1">Xuất hóa đơn VAT</label>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="Modalpay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalLabel">Nhập thông tin xuất hóa đơn VAT</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												<form action="#" method="post">
+													<div class="form-row">
+														<div class="col">
+															<label for="">Tên cá nhân hoặc tên công ty *</label>
+															<input type="text" class="form-control" placeholder="Minh Quang Nguyễn">
+														</div>
+														<div class="col">
+															<label for="">Mã số thuế *</label>
+															<input type="text" class="form-control" placeholder="124345217932453">
+														</div>
+													</div>
+													<div class="form-row">
+														<div class="col">
+															<label for="">Địa chỉ xuất hóa đơn *</label>
+															<input type="text" class="form-control" placeholder="97-99 Láng Hạ, Quận Đống Đa, TP. Hà Nội">
+														</div>
+														<div class="col">
+															<label for="">Số điện thoại *</label>
+															<input type="tel" class="form-control" placeholder="0345736222">
+														</div>
+													</div>
+													<div class="form-group">
+														<label for="">Email nhận hóa đơn *</label>
+														<input type="email" class="form-control" placeholder="minhnq@meeyland.com">
+													</div>
+
+												</form>
+											</div>
+											<div class="modal-footer">
+												<button type="submit" class="btn btn-canel disabled float-left" disabled data-dismiss="modal">Đóng</button>
+												<button type="submit" class="btn btn-continue float-right">Xác nhận</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- end -->								
+							</div>
+							<div class="block-tab-pay">
+								<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Chuyển khoản</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Thẻ ATM Nội địa</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Thẻ VISA/MASTER</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Ví MOMO</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Meey Pay</a>
+									</li>
+								</ul>
+								<div class="tab-content" id="pills-tabContent">
+									<!-- tab-1 -->
+									<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+										<div class="block-content-pay">
+											<p>Cú pháp chuyển khoản: <strong>meeyads.0987064989.000001</strong></p>
+											<p><strong>Thông tin chuyển khoản:</strong> <br>
+
+												Tên tài khoản: Nguyễn Duy Long<br>
+
+												Ngân hàng:  Ngân hàng Công Thương Việt Nam<br>
+
+											Số tài khoản: 09876523423423423  </p>
+											<p><strong>Thông tin lưu ý khi chuyển khoản</strong></p>
+											<ul>
+												<li>Nhập đúng cú pháp chuyển khoản. Meey Ads không chịu trách nhiệm cho bất kỳ mất mất nào nếu không ghi chính xác CÚ PHÁP CHUYỂN khoản trongnội dung chuyển tiền.</li>
+												<li>Vui lòng giữ lại biên lại để đối chứng khi cần thiết</li>
+												<li>Chúng tôi sẽ gửi email xác nhận thanh toán và sau khi bạn thanh toán và hoàn tất các thủ tục bắt buộc để khởi tạo chiến dịch thì Marketer sẽ được phân phối để khởi tạo chiến dịch</li>
+												<li>Hóa đơn VAT chúng tôi sẽ gửi qua Email cho bạn</li>
+											</ul>
+											
+											<div class="footer">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" id="gridCheck">
+													<label class="form-check-label" for="gridCheck">
+														Số dư chưa sử dụng 0đ
+														<span class="text-tooltip" data-toggle="tooltip" data-placement="right" title="Thông tin dự án"> </span>
+													</label>
+												</div>
+												<h4>Tổng số tiền cần thành toán<span>(Bao gồm VAT nếu có)</span> <span class="float-right">10.000.000</span></h4>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" id="gridCheck">
+													<label class="form-check-label" for="gridCheck">
+														Tôi đồng ý với <a href="#quydinh">quy định</a>và <a href="#chinhsanh">chính sách</a> của Meey Ads khi sử dụng dịch vụ này
+
+													</label>
+												</div>
+												<div class="group-2">
+													<hr>
+													<button type="submit" class="btn btn-canel disabled float-left" disabled>Hủy bỏ</button>
+													<button type="submit" class="btn btn-continue float-right">Tiếp tục</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- end -->
+									<!-- tab-2 -->
+
+									<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+										<div class="block-content-pay">
+											<div class="block-bank">
+												<div class="img-bank">	<img src="images/bank/bank1.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank2.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank3.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank4.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank5.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank6.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank7.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank8.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank9.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank10.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank11.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank12.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank13.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank14.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank15.jpg" alt="Bank"></div>
+												
+												<div class="img-bank">	<img src="images/bank/bank18.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank19.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank20.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank21.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank22.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank23.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank24.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank25.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank26.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank27.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank28.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank29.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank30.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank31.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank32.jpg" alt="Bank"></div>
+												<div class="img-bank">	<img src="images/bank/bank33.jpg" alt="Bank"></div>												
+											</div>
+										</div>
+										<div class="clearfix"></div>
+										<div class="footer">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="gridCheck">
+												<label class="form-check-label" for="gridCheck">
+													Số dư chưa sử dụng 0đ
+													<span class="text-tooltip" data-toggle="tooltip" data-placement="right" title="Thông tin dự án"> </span>
+												</label>
+											</div>
+											<h4>Tổng số tiền cần thành toán<span>(Bao gồm VAT nếu có)</span> <span class="float-right">10.000.000</span></h4>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="gridCheck">
+												<label class="form-check-label" for="gridCheck">
+													Tôi đồng ý với <a href="#quydinh">quy định</a>và <a href="#chinhsanh">chính sách</a> của Meey Ads khi sử dụng dịch vụ này
+
+												</label>
+											</div>
+											<div class="group-2">
+												<hr>
+												<button type="submit" class="btn btn-canel disabled float-left" disabled>Hủy bỏ</button>
+												<button type="submit" class="btn btn-continue float-right">Tiếp tục</button>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+								<!-- end -->
+								<!-- tab-3 -->
+
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+								</div>
+								<!-- end -->
+								<!-- tab-4 -->
+
+								<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+								</div>
+								<!-- end -->
+								<!-- tab-5 -->
+
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+								</div>
+								<!-- end -->
+							</div>
+
+						</div>							
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<div class="block-help">
+			<button class="btn btn-help">Trợ giúp</button>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>

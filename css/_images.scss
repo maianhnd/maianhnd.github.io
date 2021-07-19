@@ -1,0 +1,85 @@
+.icon{
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	background: url(../images/home.png) center no-repeat;
+	vertical-align: middle;
+}
+.icon-home{
+	background: url(../images/home.png);
+}
+.icon-creat{
+	background: url(../images/plus.png);
+}
+.icon-request{
+	background: url(../images/dashboard.png);
+}
+.icon-analysis{
+	background: url(../images/analytics.png);
+	height: 28px;
+	width: 28px;
+}
+.icon-menu{
+	display: inline-block;
+	background: url(../images/united-kingdom.png) center no-repeat;
+	vertical-align: middle;
+}
+.icon-langu{
+	background: url(../images/united-kingdom.png) center no-repeat;
+	width: 28px;
+	height: 28px;
+
+}
+.icon-user-1{
+	background: url(../images/user.png) center no-repeat;
+	width: 22px;
+	height: 22px;
+
+}
+.icon-email{
+	background: url(../images/message.png) center no-repeat;
+	width: 26px;
+	height: 18px;
+}
+.icon-bell{
+	background: url(../images/bell.png) center no-repeat;
+	width: 26px;
+	height: 18px;
+}
+.icon-profile{
+	background: url(../images/ellipse.png) center no-repeat;
+	width: 50px;
+	height: 50px;
+}
+.icon-user-2{
+	background: url(../images/user2.png) center no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.icon-wallet{
+	background: url(../images/wallet.png) center no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.number-circle{
+	border-radius: 50%;
+	font-family: Nunito Regular;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	background: #31CE36;
+	height: 18px;
+	width: 18px;
+}
+.text-tooltip{
+	background: url(../images/help-web.png) center no-repeat;
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}

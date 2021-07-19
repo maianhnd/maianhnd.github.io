@@ -1,0 +1,332 @@
+/*Form thong tin yeu cau*/
+.block-form-information{
+	
+	.form-request-information{
+		background: #FFFFFF;
+		box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+		border-radius: 5px;
+		padding: 34px 32px 50px 32px;
+
+		.form-group{
+			margin-bottom: 30px;
+			font-family: Nunito Regular;
+			font-style: italic;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			color: #000000;
+			.tittle-form{
+				font-family: Nunito Bold;	
+				font-size: 22px;
+				line-height: 24px;
+				color: #000000;
+			}
+			h3{
+				font-family: Nunito Bold;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 22px;
+				line-height: 24px;
+				color: #000000;
+			}
+			select{
+				&.select-pr{
+					font-family: Nunito Regular;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 24px;
+					color: #000000;
+					position: relative;
+					border: 1px solid #C4C4C4;
+					box-sizing: border-box;
+					border-radius: 5px;
+					width: 288px;
+					height: 50px;
+					padding-left: 16px;
+					option{
+						border: 1px solid #F4F4F4;
+						font-family: Nunito Regular;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 18px;
+						line-height: 32px;
+						color: #000000;
+					}
+					
+				}
+			}
+			label{
+				font-family: Nunito Regular;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 72px;
+				letter-spacing: 0.01em;
+				color: #000000;
+			}
+			.form-control{
+				border: 1px solid #C4C4C4;
+				box-sizing: border-box;
+				border-radius: 5px;
+				height: 50px;
+				font-family: Nunito Regular;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 24px;
+				color: #000000;
+			}
+			&.form-comment {
+				textarea{
+					height: 100px!important;
+				}
+			}
+		}
+	}	
+}
+select , select:focus{
+	background: transparent url(../images/select.png) no-repeat 94% center;
+	display: inline-block;
+	overflow: hidden;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+select::-ms-expand, select:focus::-ms-expand {
+	display: none;
+}
+.btn{
+	font-family:Nunito Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.form-name{
+	.form-control{
+		position: relative;
+		background: url("../images/muti-1.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-type{
+	.form-control{
+		position: relative;
+		background: url("../images/muti-2.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-area{
+	.form-control{
+		position: relative;
+		background: url("../images/muti-3.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-tel{
+	.form-control{
+		position: relative;
+		background: url("../images/telephone.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-link{
+	.form-control{
+		position: relative;
+		background: url("../images/link.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-total{
+	.form-control{
+		position: relative;
+		background: url("../images/coin1.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-budget{
+	.form-control{
+		position: relative;
+		background: url("../images/coin2.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.form-time{
+	.form-control{
+		position: relative;
+		background: url("../images/calendar1.png") 17px no-repeat;
+		padding-left: 51px;
+	}
+}
+.block-select-marketing{
+	.img{
+		float: left;
+	}
+	.block-text-right{
+		font-family: Nunito Bold;
+		font-style: normal;
+		font-weight: bold;
+		float: left;
+		padding-left: 20px;
+		h4{
+			font-size: 22px;
+			line-height: 24px;
+			color: #000000;
+		}
+		h5{
+			font-size: 18px;
+			line-height: 24px;
+			color: #28B446;
+			span {
+				display: inline-block;
+			}
+		}
+		.score{
+			.score-wrap{
+				padding-left: 17px;
+				.stars-active{
+					.fa-star{
+						color: #FFC107;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+		
+	}
+	.btn-choice-right{
+		float: right;
+		.btn-choice{
+			background: linear-gradient(89.6deg, #EBF0F4 0.25%, #F3F4F5 99.66%);
+			border-radius: 5px;
+			font-family: Nunito Bold;
+			font-size: 18px;
+			line-height: 30px;
+			text-align: center;
+			color: #1E1666;
+		}
+	}
+}
+.btn-remote{
+	width: 185px;
+	height: 50px;
+	background: #D8D8D8;
+	border-radius: 10px;
+	font-family: Nunito Bold;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #C5C5C5;
+}
+.btn-canel{
+	font-family: Nunito Bold;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	color: #6A7C92;
+	width: 185px;
+	height: 50px;
+	background: #D8D8D8;
+	border-radius: 10px;
+
+}
+.btn-add{
+	width: 185px;
+	height: 50px;
+	background: linear-gradient(89.6deg, #EBF0F4 0.25%, #F3F4F5 99.66%);
+	border-radius: 10px;
+	font-family: Nunito Bold;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #1E1666;
+}
+.btn-continue{
+	background: linear-gradient(269.92deg, #052F7B 0.07%, #1D4DA7 99.93%);
+	border-radius: 10px;
+	font-family: Nunito Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 185px;
+	height: 50px;
+}
+.group-1 {
+	padding: 20px 0 0px 0;
+}
+.group-2 {
+	hr{
+		border-top: 1px solid #EAEFF4;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+/* element  attr    attr value */
+option[selected="selected2"] {
+	background-image: url('../images/google.png');
+
+}
+option[selected="selected3"] {
+	background-image: url('../images/fb.png');
+}
+span{
+	.select2-selection.select2-selection--multiple {
+		border: 1px solid #C4C4C4!important;
+		box-sizing: border-box;
+		border-radius: 5px;
+		height: 50px!important;
+		padding: 0!important;
+
+	}
+}
+.form-file-input{
+	font-style: italic!important;
+	padding: 15px 16px 18px 16px!important;
+	&:before{
+		content: "";
+		background: url("../images/upload.png");
+		display: inline-block;
+		width: 20px;
+		height: 21px;
+		vertical-align: middle;
+		margin-right: 15px;
+
+	}
+	&:-webkit-file-upload-button {
+		visibility: hidden;
+		display: none;
+	}
+}
+.form-file-input::-webkit-file-upload-button {
+	visibility: hidden;
+	display: none;
+}
+.block-help {
+	.btn-help{	
+		font-family: Nunito Bold;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 24px;
+		color: #FFFFFF;
+		background: linear-gradient(90deg, #1C4CA6 0%, #07327F 98.89%);
+		border-radius: 30px 3px 30px 30px;
+		position: fixed;
+    bottom: 70px;
+    left: 30px;
+    z-index: 99999;
+
+	}
+}
+.data-table{
+	width: 100%;
+}
+
